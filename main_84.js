@@ -8,6 +8,6 @@ function getmenu()
         //Adicione a função push() para empurrar itens dentro para da array
         pizzaListArray.push(item);
         
-        var removeCommas = pizzaListArray.join("<br>#");
+        var removeCommas = pizzaListArray.join("<br># ");
         document.getElementById("displayMenu").innerHTML =  "# " + removeCommas;
 	}
